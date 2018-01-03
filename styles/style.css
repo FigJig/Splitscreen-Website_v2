@@ -1,0 +1,140 @@
+@font-face
+{
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue") format("otf");
+}
+
+
+@media all and (min-width: 600px) {
+    .container {
+        font-size: 14px;
+    }
+}
+@media all and (min-width: 800px) {
+    .container {
+        font-size: 20px;
+    }
+}
+
+p
+{
+    color:#474747;
+    line-height: 150%;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+h2
+{
+    line-height: :2;
+    letter-spacing: 3px; 
+    color: #d9c7f3;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+	line-height: 1.6em;
+    overflow: auto;
+}
+
+table
+{
+    color: #474747;
+    font-family: 'Robot', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table img 
+{
+    max-width: 90%;
+}
+
+footer
+{
+    width: 1050px;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#splitscreen-logo
+{
+    width: 75%;
+    padding: 300px 0 0 110px;
+
+}
+
+.footer 
+{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+.container
+{
+  padding: 0 0 50px 0;
+}
+
+.container img
+{
+    width: 100%;
+    height: auto;
+}
+
+.container-right
+{
+    position: absolute;
+    background-color: white;
+    width: 1200px;
+    height: 900px;
+    margin: 40px 0 0 700px;
+}
+
+.container-right-content
+{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin: 330px 100px 0 800px;
+}
+
+.container-left
+{
+    position: absolute;
+    width: 630px;
+    height: 900px;
+    margin: 40px 10px 0 50px;
+}
+
+.container-left-content
+{
+    position: absolute;
+    line-height: :2;
+    letter-spacing: 3px; 
+}
+
+.container-left-content p
+{
+    position: absolute;
+    line-height: :2;
+    letter-spacing: 3px; 
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
