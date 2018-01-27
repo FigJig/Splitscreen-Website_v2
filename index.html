@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <html lang = "en-US">
         <meta charset="utf-8">
+        <meta name ="author" content="Trent Davies">
+        <meta name ="description" content ="Splitscreen is a series of documentaries about local independent developers and people involved in the games scene in Melbourne, Australia. We are looking to give a voice to people who haven’t yet had the platform to do so, to talk about their work and the current games scene in and around Melbourne.">
         <title>Splitscreen - Melbourne Videogame Documentaries</title>
         <link href="styles/style.css" rel ="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+        <link rel ="shortcut icon" href ="favicon.ico" type = "image/x-icon">
     </head>
     <body>
-        <div class = "container-right">         
+        <div class = "container-right">
+            <p class = "explore-text">Explore the Melbourne Games Scene</p>
+        <div class = "social-media-icons">
+            <img src = "images/icon_fb.png" align = "middle" onmouseover='iconMouseOver(this)' onmouseout = 'iconMouseOut(this)' onclick="window.open('https://www.facebook.com','_blank')">
+            <img src = "images/icon_youtube.png" align = "middle" onmouseover='iconMouseOver(this)' onmouseout = 'iconMouseOut(this)' onclick="window.open('https://www.youtube.com/channel/UCyx51qOSKtcfIiEqUDLQWkg','_blank')">
+            <img src = "images/icon_twitter.png" align = "middle" onmouseover='iconMouseOver(this)' onmouseout = 'iconMouseOut(this)' onclick="window.open('https://www.twitter.com','_blank')">
+            <img src = "images/icon_linkedin.png" align = "middle" onmouseover='iconMouseOver(this)' onmouseout = 'iconMouseOut(this)' onclick="window.open('https://au.linkedin.com/','_blank')">
         </div>
-         <div class ="container-right-content">
-            <h2><span style ="background-color: black">&ensp;&ensp;What is Splitscreen?&ensp; </span></h2>
-            <p>Splitscreen is a series of <strong>documentaries about local independent developers and people involved in the games scene in Melbourne, Australia.</strong> We are looking to give a voice to people who haven’t yet had the platform to do so, to talk about their work and the current games scenes in and around Melbourne.</p> 
-            <p><strong>They are free to watch on YouTube and with permission, to be screened in public spaces.</strong></p>
-            </div>
+        <img src="images/content-right-bg-3.png" align ="middle">
+        </div>
+        <div class ="container-right-content">
+                <h2 id ="section-title"><span style ="background-color: black">&ensp;/ABOUT&ensp;</span></h2>
+                <p id = "section-content-p-1">Splitscreen is a series of <strong>documentaries about local independent developers and people involved in the games scene in Melbourne, Australia.</strong> We are looking to give a voice to people who haven’t yet had the platform to do so, to talk about their work and the current games scene in and around Melbourne.</p>
+                <p id = "section-content-p-2"><strong>These are free to watch on YouTube and with permission, to be screened in public spaces.</strong></p>
+        </div>
         <div class = "container-left">
+            <img id ="splitscreen-logo" src = "images/Splitscreen_logo.png" alt="The Splitscren Logo" align="middle"> 
         </div>
         <div class = "container-left-content">
-            <img id ="splitscreen-logo" src = "images/Splitscreen_logo.png" alt="The Splitscren Logo" align="middle">   <p>About</p> <br>
-            <p>Explore the Melbourne Games Scene</p> <br>
-            <p>Credits</p><br>
-            <p>Contact</p><br>
-        </div>
-        <!--<div class = "container">
-            <h2><span style="background-color: black"><strong>&ensp;&ensp;Episodes&ensp;</strong></span></h2>
             <table>
                 <tr>
-                    <th>
-                        <img src = "images/kalonica.jpg" alt = "Episode 1 thumbail - Kalonica" onclick="window.open('https://www.youtube.com/watch?v=KJXg9rdkTFw', '_blank');" onmouseover="imageMouseOver(this)" onmouseout = "imageMouseOut(this)">
-                    </th>
-                    <th>
-                        <img src = "images/louie.jpg" alt = "Episode 2 thumbail - Louie" onclick="window.open('https://www.youtube.com/watch?v=C8v65B_vcHc', '_blank');" onmouseover="imageMouseOver(this)" onmouseout = "imageMouseOut(this)">
-                    </th>
-                    <th>
-                        <img src = "images/route59.jpg" alt = "Episode 3 thumbail - Route 59" onclick = "window.open('https://www.trentmcdavies.com/','_blank');" onmouseover="imageMouseOver(this)" onmouseout = "imageMouseOut(this)">
-                    </th>
+                    <td><button type = "button" class = "menu-button-default" id = "about" onclick="aboutButtonClick()">About</button></td>
                 </tr>
                 <tr>
-                    <td>Episode 1: Kalonica Quigley</td>
-                    <td>Episode 2: Louie Roots</td>
-                    <td>Episode 3: Route 59</td>
+                    <td><button type = "button" class = "menu-button-default"  id ="episodes" onclick="episodesButtonClick()">Episodes</button></td>
+                </tr>
+                <tr>
+                    <td><button type = "button" class = "menu-button-default" id = "credits" onclick="creditsButtonClick()">Credits</button></td>
+                </tr>
+                <tr>
+                    <td><button type = "button" class = "menu-button-default" id = "contact" onclick="contactButtonClick()">Contact</button></td>
                 </tr>
             </table>
         </div>
-        <div class ="container">  
-            <h2><span style ="background-color: black">&ensp;&ensp;Created by&ensp;</span></h2>
-            <p>Trent Davies<br>Daniel Roberts<br>Adrian Satrianugraha<br><br>with special thanks to Simon Tran for helping out with Episode 3: Route 59.</p>
-        </div>
-        <div class ="container">  
-            <h2><span style ="background-color: black">&ensp;&ensp;Contact&ensp;</span></h2>
-            <p>splitscreen.documentary@gmail.com<br>Twitter<br>Facebook<br></p>
-        </div> -->
         <script src="scripts/main.js"></script>
         <!--<footer>
         <p class ="footer">© Splitscreen 2017</p>
